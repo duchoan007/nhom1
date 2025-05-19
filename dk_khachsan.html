@@ -1,0 +1,62 @@
+<html>
+<head>
+  <title>Đặt phòng ngay</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+	  text-align:center;
+     }
+    form {
+      border: 2px solid 
+      padding: 20px;
+     
+    }
+	footer {
+				background-color: gray;
+				color: white;
+				text-align: center;
+				padding: 10px;
+				width: 100%;
+			}
+  </style>
+</head>
+<body>
+  <form action="your_booking_form_url" method="post">
+    <h2>ĐẶT PHÒNG NGAY</h2>
+    <label for="name">Tên của bạn:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="phone">Số điện thoại:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+    
+    <label for="checkin">Ngày nhận phòng:</label><br>
+    <input type="date" id="checkin" name="checkin" required><br><br>
+    
+    <label for="checkout">Ngày trả phòng:</label><br>
+    <input type="date" id="checkout" name="checkout" required><br><br>
+	
+    
+    <label for="phong">Loại phòng:</label><br>
+    <select id="phong" name="phongg" required>
+      <option value="phong1">Phòng Tiêu Chuẩn</option>
+      <option value="phong2">Phòng Cao Cấp</option>
+      <option value="phong3">Phòng VIP </option>
+    </select><br><br>
+    
+    <label for="message">Yêu cầu đặc biệt (nếu có):</label><br>
+    <textarea id="message" name="message"></textarea><br><br>
+	<label for="dat"> </label>
+	<input type="submit" id="dat" name="dat" value=" Đặt ngay" >
+	<footer>
+			<p style=" font-size: 14px; font-weight: 400; line-height: 20px; text-align: center;"><em><b>DƯỚI ĐÂY LÀ MỘT SỐ THÔNG TIN LIÊN HỆ NẾU BẠN CẦN:</b><br>
+		Facebook:<a href="https://www.facebook.com/nguyen.trung.duc.727835">Nguyễn Trung Đức </a><br>
+		Email : trungduc091@gmail.com<br>
+		Sđt: 0369901938 </em></p>
+		</footer>
